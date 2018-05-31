@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,200,300,400,500,600,700&subset=cyrillic-ext,latin-ext');
 
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    color:#101010;
+}
+
+.title {
+    font-size: 2em;
+}
+
 .tonsole {
     position: fixed;
     z-index: 1050;
